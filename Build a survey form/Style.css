@@ -1,0 +1,71 @@
+body {
+  background-color: #6a0dad;
+  font-family: Tahoma;
+  margin: 0;
+  padding: 0;
+}
+
+#title{
+	text-align: center;
+	color: white;
+}
+
+#description{
+	text-align: center;
+	color: white;
+}
+
+#survey-form {
+  width: 80%; /* Adjust the width as needed */
+  max-width: 600px; /* Optional, to limit the maximum width */
+  margin: 2rem auto; /* This centers the form horizontally and adds some vertical spacing */
+  padding: 70px 60px; /* Padding inside the form */
+  background-color: rgba(0, 0, 0, 0.8); /* Black translucent background */
+  color: white; /* Text color white */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 10px; /* Rounded corners */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+#survey-form #name,
+#survey-form #email,
+#survey-form #number,
+#survey-form #dropdown {
+  width: 100%; /* Make input elements take full width of their parent container */
+  padding: 12px 20px; /* Padding inside input elements */
+  box-sizing: border-box; /* Ensures padding is included in the total width and height */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  margin: 10px 0; /* Add some vertical margin for spacing between elements */
+  justify-content: center; /* Center the form horizontally */
+  align-items: center; /* Center the form vertically */
+  
+  
+  
+}
+
+#survey-form #comments {
+  width: 100%; /* Make input elements take full width of their parent container */
+  padding: 12px 20px; /* Padding inside input elements */
+  box-sizing: border-box; /* Ensures padding is included in the total width and height */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  margin: 10px 0; /* Add some vertical margin for spacing between elements */
+  justify-content: center; /* Center the form horizontally */
+  align-items: center; /* Center the form vertically */
+}
+
+#submit {
+	width: 100%;
+	padding: 12px 20px;
+	box-sizing: border-box; /* Ensures padding is included in the total width and height */
+	margin: 10px 0;
+	background-color: #e60000;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #ff4d4d; /* Brighter red on hover */
+  box-shadow: 0 0 15px rgba(255, 77, 77, 0.7); /* Add a glowing effect */
+}
